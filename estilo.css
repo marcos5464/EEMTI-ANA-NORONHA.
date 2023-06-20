@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    body{
+        background: #ffffffad;
+    }
+    h1{
+        text-align: center;
+        color: #fafafa;
+        background: #207c49;
+    }
+    h2{
+        text-align: center;
+        color: #0c91ac;
+    }
+    p strong{
+        color: #c2a609;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    header{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding: 10px;
+    }
+    .menu ul li{
+    display: inline;
+    }
+    .menu > ul > li > a:link {
+    text-decoration:none ;
+    }
+    .menu > ul > li > a:hover {
+       border-bottom: 2px solid #00a84a;
+       color: #f0852e;
+       padding: 5px;
+        }
+    .menu > ul > li > a:active {
+       color: black;
+         border-bottom: 2px solid #00a84a;
+             }
+    #ativo{
+        border-bottom: 2px solid #00a84a;
+    }
+    #logo{
+    width: 500px;
+    }
+    #baneer-principal{
+    width: 100%;
+    }   
+    #logoescola{
+        width: 100px;
+    }
+    #baneer{
+        width: 500px;
+        height: 300px; 
+        border-radius: 10%;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+        padding: 40px;
+        background-color: #fafafa;
+    }
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 20%;
+    }
+    #imagem1{
+        width: 300px;
+        width: 300px;
+        border-radius: 10%;
+    }
+    #imagem2{
+        width: 300px;
+        width: 300px;
+        border-radius: 10%;
+    }
+    #imagem3{
+        width: 300px;
+        width: 300px;
+        border-radius: 10%;
+    }
+    #imagem4{
+        width: 300px;
+        width: 300px;
+        border-radius: 10%;
+    }
+    
+    #imagem5{
+        width: 300px;
+        width: 300px;
+    border-radius: 10%
+    }
+    #baneer{
+        width: 400px;
+        width: 400px;
+        border-radius: 10%;
+    }
+    #video{
+        background-color: #87c878;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        border-bottom: 5px solid orange;
+    }
+    #video > .container > img{
+    height: 315px;
+    }
+    

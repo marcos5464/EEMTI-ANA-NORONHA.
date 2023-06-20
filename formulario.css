@@ -1,0 +1,13 @@
+.conteiner-form{
+display: flex;
+align-items: center;
+padding: 20%;
+}
+.conteiner-form{
+    width:500% ;
+    height: 200px;
+    margin-right: 20px;
+}
+.conteiner-form form{
+width: 50%;
+}

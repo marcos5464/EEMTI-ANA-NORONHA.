@@ -1,0 +1,124 @@
+*{box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    body{
+    background: #ffffffad;
+    }
+    h1{
+    text-align: center;
+    color: #fafafa;
+    background: #207c49;
+    }
+    h2{
+    text-align: center;
+    color: #0c91ac;
+    }
+    .pstrong{
+    color: #c2a609;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    .header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px;
+    }
+    .menu ul li{
+    display: inline;
+    }
+    .menu > ul > li > a:link {
+    text-decoration:none ;
+    }
+    .menu > ul > li > a:hover {
+    border-bottom: 2px solid #00a84a;
+    color: #f0852e;
+    padding: 5px;
+    }
+    .menu > ul > li > a:active {
+    color: black;
+    border-bottom: 2px solid #00a84a;
+    }
+    #ativo{
+    border-bottom: 2px solid #00a84a;
+    }
+    #logo{
+    width: 500px;
+    }
+    #logoescola{
+    width: 100px;
+    }
+    .style
+    .ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    #ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    }
+    #diretora{
+    width: 200px;
+    height: 200px; 
+    border-radius: 10%;
+    }
+    #secretaria{
+    width: 200px;
+    height: 200px; 
+    border-radius: 10%;
+    }
+    
+    .baneer{
+    width: 200px;
+    height: 200px; 
+    border-radius: 10%;}
+    
+    #cord1{
+    width: 200px;
+    height: 200px; 
+    border-radius: 10%;
+    }
+    #cord1{
+    width: 200px;
+    height: 200px; 
+    border-radius: 10%;
+    }
+    #cord2{
+    width: 200px;
+    height: 200px; 
+    border-radius: 10%;
+    }
+    #cord3{
+    width: 200px;
+    height: 200px; 
+    border-radius: 10%;
+    }
+    .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #fafafa;
+    }
+    .conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 20%}
+    #p{
+    text-align: center;
+    }
+    #instagram{
+    width: 150px;
+    height: 100px;
+    }
+    #rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    border-bottom: 7px solid orange;
+    }
